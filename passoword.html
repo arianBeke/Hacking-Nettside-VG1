@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background: black;
+        }
+        .pass{
+            width: 100vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            background-color: black;
+            border-color: rgb(94, 255, 0);
+            -webkit-text-fill-color: rgb(94, 255, 0);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(94, 255, 0);
+        }
+        .password-text{
+            -webkit-text-fill-color: rgb(94, 255, 0);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(94, 255, 0);
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+        }
+    </style>
+</head>
+<body>
+    
+     <div class="pass">
+         <form id="loginForm" onsubmit="getLogin();">
+                <div class="password-text">
+                    <p>Password</p>
+                </div>
+                <input type="password" name="password"></input>
+                <input type="submit" value="Enter">
+         </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>                               
+
+
+
